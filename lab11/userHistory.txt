@@ -1,0 +1,7 @@
+ 743  id
+ 744  pwd
+ 745  touch file1
+ 746  echo 'Hello, world!' > file1 
+ 747  cat file1
+ 748  chmod 600 file1 
+ 749  history > userHistory

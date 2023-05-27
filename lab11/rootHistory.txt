@@ -1,0 +1,16 @@
+  120  auditctl -D
+  121  auditctl -w /home/faust/BOS/lab11/file1 -p war -k faust_file1
+  122  auditctl -l
+  123  aureport --file -ts today -i --summary
+  124  aureport --file -ts recent
+  125  ausearch -a 13053
+  126  ausearch -a 255
+  127  ausearch -a 254
+  128  aureport --file -ts recent
+  129  ausearch -a 256
+  120  aureport
+  121  aureport --auth -ts recent
+  122   aureport --user -ts recent -i
+  123  ausearch --uid 1001 -ts recent
+  124  ausearch --uid 1000 -ts recent
+  125  history > rootHistory
